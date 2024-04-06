@@ -222,18 +222,17 @@
         grid-row: auto;
     }
 
-    .what_multitasking{
-        margin-top:4px;
+    .what_multitasking {
+        margin-top: 4px;
     }
 
-    .how_walk{
-        margin-top:4px;
+    .how_walk {
+        margin-top: 4px;
     }
 
     /*.section.galery .title-decore{*/
     /*    margin-top: 5px;*/
     /*}*/
-
     .section.galery span {
         display: grid;
         grid-template-rows: auto;
@@ -362,7 +361,6 @@
     /*    grid-template-rows: 50% 50%;*/
     /*    row-gap: 16px;*/
     /*}*/
-
     /*.section:nth-child(1) article {*/
     /*    width: 100%;*/
     /*    display: flex;*/
@@ -378,6 +376,7 @@
         row-gap: 14px;
         margin-top: -1px;
     }
+
     .section:nth-child(1) h2 {
         margin-right: 5px;
         /*display: flex;*/
@@ -386,6 +385,7 @@
         /*grid-row: auto;*/
         /*margin-left: 16px;*/
     }
+
     .section:nth-child(1) article {
         display: flex;
         flex-direction: column;
@@ -393,6 +393,7 @@
         grid-row: auto;
         margin-left: 16px;
     }
+
     /*///*/
     .section:nth-child(2) {
         display: grid;
@@ -417,8 +418,8 @@
         grid-column: auto;
     }
 
-    .what_food{
-        margin-top:-3px
+    .what_food {
+        margin-top: -3px
     }
 
     .section:nth-child(3) {
@@ -442,21 +443,27 @@
         grid-row: auto;
         margin-left: 15px;
     }
-    .how_imagine{
+
+    .how_imagine {
         margin-top: -5px;
     }
-    .how_music{
-         margin-top: 9px;
-     }
-    .how_walk{
+
+    .how_music {
         margin-top: 9px;
     }
-    .how_eat{
+
+    .how_walk {
         margin-top: 9px;
     }
-    .how_read{
+
+    .how_eat {
         margin-top: 9px;
     }
+
+    .how_read {
+        margin-top: 9px;
+    }
+
     .section:nth-child(4) {
         margin-top: 0px;
         margin-left: -10px;
@@ -609,7 +616,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-margin-top:8px;
+        margin-top: 8px;
         font-family: var(--font-name);
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
         font-weight: var(--header-font-weight);
@@ -673,18 +680,22 @@ margin-top:8px;
         /*margin-top: 7px;*/
     }
 
-    .how_music{
+    .how_music {
         margin-top: -7px;
     }
-    .how_walk{
+
+    .how_walk {
         margin-top: -9px;
     }
-    .how_eat{
+
+    .how_eat {
         margin-top: -9px;
     }
-    .how_read{
+
+    .how_read {
         margin-top: -9px;
     }
+
     .section:nth-child(3) h3 {
         max-height: 23px;
         margin-left: 10px;
@@ -696,15 +707,14 @@ margin-top:8px;
         grid-column: 2;
         grid-row: auto;
         margin-left: 10px;
-        padding:0;
-        margin-bottom:0;
+        padding: 0;
+        margin-bottom: 0;
         /*margin-top: 10px;*/
     }
+
     /*.section:nth-child(3) h4:nth-child(1){*/
     /*    margin-top: 10px;*/
-
     /*}*/
-
     .section:nth-child(4) {
         margin-top: -10px;
         margin-left: -10px;
