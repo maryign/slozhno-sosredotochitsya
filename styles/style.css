@@ -69,7 +69,7 @@
 
 .title-decore {
     font-family: var(--font-name);
-    background-color: var(--accent-color);
+    background-color: var(--links-accent-color);
     color: var(--sub-header-color);
     font-size: var(--sub-header-font-size);
     font-weight: var(--sub-header-font-weight);
@@ -78,7 +78,7 @@
 
 .h3 {
     font-family: var(--font-name);
-    background-color: var(--accent-color);
+    background-color: var(--links-accent-color);
     font-size: var(--sub-header-font-size);
     font-weight: var(--sub-header-font-weight);
     text-align: left;
@@ -100,7 +100,7 @@
     font-family: var(--font-name);
     font-size: var(--text-font-size);
     font-weight: var(--text-font-weight);
-    text-shadow: 1px 1px 0 var(--accent-color);
+    text-shadow: 1px 1px 0 var(--links-accent-color);
 }
 
 .decorated-zone::before {
@@ -183,7 +183,7 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 7px;
         font-family: var(--font-name);
         font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
         font-weight: var(--header-font-weight);
@@ -876,9 +876,9 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        height: min(100vh, 728px);
+        height: calc(100vh - 20px);
         margin-bottom: 20px;
-        margin-top: -79px;
+        margin-top: -55px;
     }
 
     .footer_text {

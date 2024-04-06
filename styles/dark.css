@@ -11,6 +11,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
     --main-header-color: #DB00FF;
+    --links-accent-color:  #FF0070;
+
     --accent-color: #FF0070;
     --main-color: #FF0070;
     --main-color-with-opacity: rgba(255, 0, 112, 0.4);

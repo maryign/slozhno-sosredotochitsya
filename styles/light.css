@@ -12,6 +12,7 @@
 
     background: #FFF1F7;
     --main-header-color: #FFC2E6;
+    --links-accent-color: #FF8DCB;
     --accent-color: #FF0070;
     --background-color: #FFF1F7;
     --main-color: #353430;
@@ -28,6 +29,7 @@
     :root {
         background: #FFF1F7;
         --main-header-color: #FFC2E6;
+        --links-accent-color: #FF8DCB;
         --accent-color: #FF0070;
         --background-color: #FFF1F7;
         --main-color: #353430;

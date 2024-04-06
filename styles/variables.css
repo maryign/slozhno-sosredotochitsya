@@ -4,6 +4,7 @@
 */
 :root {
     --main-header-color: #DB00FF;
+    --links-accent-color:  #FF0070;
     --accent-color: #FF0070;
     --main-color: #FF0070;
     --main-color-with-opacity: rgba(255, 0, 112, 0.4);
@@ -15,7 +16,7 @@
     --text-color: #F1B2CE;
     --accent-color-with-opacity: rgba(255, 0, 112, 0.4);
 
-    --font-name: IBM Plex Mono;
+    --font-name: IBM Plex Mono, sans-serif;
     --text-font-size: 18px;
     --text-font-weight: 400;
 
@@ -30,6 +31,8 @@
 
 :root .theme_auto {
     background: #FFF1F7;
+    --links-accent-color: #FF8DCB;
+
     --main-header-color: #FFC2E6;
     --accent-color: #FF0070;
     --background-color: #FFF1F7;
