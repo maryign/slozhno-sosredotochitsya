@@ -5,25 +5,23 @@
 */
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
     background: #FFF1F7;
     --main-header-color: #FFC2E6;
     --links-accent-color: #FF8DCB;
     --accent-color: #FF0070;
     --background-color: #FFF1F7;
     --main-color: #353430;
-    --main-color-with-opacity:rgba(50, 49, 45, 0.4);
-    --rec-color:rgba(255, 0, 112, 0);
-    --sub-header-color:#353430;
-    --text-color:#353430;
+    --main-color-with-opacity: rgba(50, 49, 45, 0.4);
+    --rec-color: rgba(255, 0, 112, 0);
+    --sub-header-color: #353430;
+    --text-color: #353430;
     --accent-color-with-opacity: rgba(50, 49, 45, 0.4);
-    --background-image:url('../images/cover-image-light.png');
+    --background-image: url('../images/cover-image-light.png');
 }
-
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -33,11 +31,11 @@
         --accent-color: #FF0070;
         --background-color: #FFF1F7;
         --main-color: #353430;
-        --main-color-with-opacity:rgba(50, 49, 45, 0.4);
-        --rec-color:rgba(255, 0, 112, 0);
-        --sub-header-color:#353430;
-        --text-color:#353430;
+        --main-color-with-opacity: rgba(50, 49, 45, 0.4);
+        --rec-color: rgba(255, 0, 112, 0);
+        --sub-header-color: #353430;
+        --text-color: #353430;
         --accent-color-with-opacity: rgba(50, 49, 45, 0.4);
-        --background-image:url('../images/cover-image-light.png');
+        --background-image: url('../images/cover-image-light.png');
     }
 }
