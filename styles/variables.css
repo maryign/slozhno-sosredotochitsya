@@ -3,19 +3,19 @@
   и их переопределение под различные устройства
 */
 :root {
-    --main-header-color:#DB00FF;
+    --main-header-color: #DB00FF;
     --accent-color: #FF0070;
     --main-color: #FF0070;
-    --main-color-with-opacity:rgba(255, 0, 112, 0.4);
-    --rec-color:rgba(255, 0, 112, 1);
+    --main-color-with-opacity: rgba(255, 0, 112, 0.4);
+    --rec-color: rgba(255, 0, 112, 1);
 
     --background-color: #000028;
-    --header-color:#FF0070;
-    --sub-header-color:#000028;
-    --text-color:#F1B2CE;
-    --accent-color-with-opacity:rgba(255, 0, 112, 0.4);
+    --header-color: #FF0070;
+    --sub-header-color: #000028;
+    --text-color: #F1B2CE;
+    --accent-color-with-opacity: rgba(255, 0, 112, 0.4);
 
-    --font-name:IBM Plex Mono;
+    --font-name: IBM Plex Mono;
     --text-font-size: 18px;
     --text-font-weight: 400;
 
@@ -25,19 +25,19 @@
     --sub-header-font-size: 18px;
     --sub-header-font-weight: 700;
 
-    --background-image:url('../images/cover-image-dark.png');
+    --background-image: url('../images/cover-image-dark.png');
 }
 
-:root .theme_auto{
+:root .theme_auto {
     background: #FFF1F7;
     --main-header-color: #FFC2E6;
     --accent-color: #FF0070;
     --background-color: #FFF1F7;
     --main-color: #353430;
-    --main-color-with-opacity:rgba(50, 49, 45, 0.4);
-    --rec-color:rgba(255, 0, 112, 0);
-    --sub-header-color:#353430;
-    --text-color:#353430;
+    --main-color-with-opacity: rgba(50, 49, 45, 0.4);
+    --rec-color: rgba(255, 0, 112, 0);
+    --sub-header-color: #353430;
+    --text-color: #353430;
     --accent-color-with-opacity: rgba(50, 49, 45, 0.4);
-    --background-image:url('../images/cover-image-light.png');
+    --background-image: url('../images/cover-image-light.png');
 }
