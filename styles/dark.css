@@ -10,4 +10,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+    --main-header-color: #DB00FF;
+    --accent-color: #FF0070;
+    --main-color: #FF0070;
+    --main-color-with-opacity: rgba(255, 0, 112, 0.4);
+    --rec-color: rgba(255, 0, 112, 1);
+
+    --background-color: #000028;
+    --header-color: #FF0070;
+    --sub-header-color: #000028;
+    --text-color: #F1B2CE;
+    --accent-color-with-opacity: rgba(255, 0, 112, 0.4);
 }
