@@ -5,9 +5,9 @@
 */
 
 .page.theme_dark {
-    /*background: #000028;*/
+    background: #000028;
     /*background-color: #000028;*/
-    background: #00183F;
+    /*background: #00183F;*/
 
     /* сохраните этот селектор в приведённом виде.
       Так стили написанные ниже будут иметь больший вес,
