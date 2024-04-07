@@ -9,7 +9,7 @@
       Так стили написанные ниже будут иметь больший вес,
       чем стили в медиазапросе предпочтений пользователя
     */
-    background: #FFF1F7;
+    /*background: #FFF1F7;*/
     --main-header-color: #FFC2E6;
     --links-accent-color: #FF8DCB;
     --accent-color: #FF0070;
@@ -25,7 +25,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        background: #FFF1F7;
+        /*background: #FFF1F7;*/
         --main-header-color: #FFC2E6;
         --links-accent-color: #FF8DCB;
         --accent-color: #FF0070;
