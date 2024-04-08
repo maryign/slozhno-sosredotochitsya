@@ -400,12 +400,14 @@ main {
 
     .section_galery {
         margin: -7px 0 0 0;
-        max-height: 80vh;
-        min-height: 80vh;
+        max-height: 823px;
+        /*min-height: 80vh;*/
     }
 
     .section_galery div {
-        min-height: 780px;
+        /*min-height: 780px;*/
+        /*min-height: 75vh;*/
+        min-height: 80%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         /*grid-template-rows: 0.75fr 1fr 2fr;*/
