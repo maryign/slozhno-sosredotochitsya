@@ -399,15 +399,18 @@ main {
 
     .section_galery {
         margin: -7px 0 0 0;
+        max-height: 80vh;
     }
 
     .section_galery div {
-        min-height: min(800px, 1090px);
+        min-height: 780px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.75fr 1fr 2fr;
-        row-gap: 15px;
-        column-gap: 15px;
+        /*grid-template-rows: 0.75fr 1fr 2fr;*/
+        grid-template-rows: minmax(192px, 260px) minmax(230px, 315px) minmax(318px, 428px);
+
+        row-gap: 21px;
+        column-gap: 18px;
         margin: 0;
     }
 
@@ -513,13 +516,19 @@ main {
 
     .section_galery {
         margin: -10px 0 0 0;
+            max-height: 142vh;
     }
 
     .section_galery h2 {
         margin: 0;
     }
 
+    .footer.corner_decoration::after {
+        bottom: 0;
+        left: 20px;
+        margin-bottom: 0px;
+    }
     .footer {
-        margin: 0 0 0 0;
+        margin: 40px 0 20px 0;
     }
 }
