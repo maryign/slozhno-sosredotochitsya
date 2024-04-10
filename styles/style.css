@@ -507,7 +507,6 @@ main {
     }
 
     .section_galery div {
-        min-height: 1048px;
         height: 1048px;
     }
 }
