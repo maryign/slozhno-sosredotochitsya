@@ -3,6 +3,12 @@
 .page {
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
     background-attachment: fixed;
+
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     background-color: var(--background-color);
 }
 
@@ -18,7 +24,7 @@
     display: flex;
     top: 10px;
     right: 39px;
-    color: var(--rec-color);
+    color: var(--main-color);
     font-family: var(--font-name);
     font-size: var(--text-font-size);
     font-weight: var(--text-font-weight);
@@ -32,16 +38,18 @@
     inline-size: 9px;
     block-size: 9px;
     border-radius: 50%;
-    background: var(--rec-color);
-    box-shadow: 0 0 4px 2px var(--rec-color);
+    background: var(--main-color);
+    box-shadow: 0 0 4px 2px var(--main-color);
 }
 
-.decorated-zone {
-    position: relative;
-    background-image: var(--background-image);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.page.theme_light .rec {
+    display: none;
+}
+
+@media (prefers-color-scheme: light) {
+    .page.theme_auto .rec {
+        display: none;
+    }
 }
 
 .header__theme-menu {
@@ -294,13 +302,13 @@ main {
     }
 
     .footer.corner_decoration::before {
-        top: 0;
+        /*top: 0;*/
         right: 20px;
         margin: 40px 0 0 0;
     }
 
     .footer.corner_decoration::after {
-        bottom: 0;
+        /*bottom: 0;*/
         left: 20px;
         margin: 0;
     }
@@ -366,7 +374,7 @@ main {
         flex-direction: row;
         grid-row: auto;
         grid-column: auto;
-        width: 30vw;
+        width: 30%;
     }
 
     .section_what article {
@@ -404,7 +412,7 @@ main {
 
     .section_galery div {
         min-height: 780px;
-        display: grid;
+        /*display: grid;*/
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1.25fr 1.75fr;
         row-gap: 20px;
@@ -474,28 +482,28 @@ main {
     }
 
     .section_what {
-        display: grid;
+        /*display: grid;*/
         grid-template-rows: 1fr 9fr;
     }
 
     .section_what .list {
-        display: grid;
+        /*display: grid;*/
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
+        /*grid-template-rows: auto;*/
         gap: 20px;
         grid-auto-flow: row;
     }
 
-    .section_what article {
-        display: flex;
-        flex-direction: column;
-        grid-row: auto;
-        grid-column: auto;
-    }
+    /*.section_what article {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    grid-row: auto;*/
+    /*    grid-column: auto;*/
+    /*}*/
 
     .section_how {
-        display: grid;
-        grid-template-columns: 33% 67%;
+        /*display: grid;*/
+        /*grid-template-columns: 33% 67%;*/
         grid-template-rows: 2% auto;
         row-gap: 20px;
     }
@@ -521,17 +529,17 @@ main {
         min-height: 1048px;
     }
 
-    .section_galery h2 {
-        margin: 0;
-    }
+    /*.section_galery h2 {*/
+    /*    margin: 0;*/
+    /*}*/
 
-    .footer.corner_decoration::after {
-        bottom: 0;
-        left: 20px;
-        margin-bottom: 0;
-    }
+    /*.footer.corner_decoration::after {*/
+    /*    !*bottom: 0;*!*/
+    /*    !*left: 20px;*!*/
+    /*    !*margin-bottom: 0;*!*/
+    /*}*/
 
-    .footer {
-        margin: 40px 0 20px 0;
-    }
+    /*.footer {*/
+    /*    margin: 40px 0 20px 0;*/
+    /*}*/
 }

@@ -14,7 +14,7 @@
     --sub-header-color: #000028;
     --text-color: #F1B2CE;
     --accent-color-with-opacity: rgba(255, 0, 112, 0.4);
-    --font-name: 'IBM Plex Mono', sans-serif;
+    --font-name: 'IBM Plex Mono', monospace;
     --text-font-size: 18px;
     --text-font-weight: 400;
     --header-font-size: 116px;
